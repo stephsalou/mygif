@@ -7,7 +7,7 @@ https://preloaders.net/
 # STEP TO ADD THE PRELOADER 
 - STEP1 
   add css to your head tag 
-  ```html
+```html
   <style>
         /* loader css start */
         .loader {
@@ -49,16 +49,18 @@ https://preloaders.net/
 ```
 
 - Step2 add loader script to yout head tag again
-```html
-          <script>
-              window.addEventListener("load", function () {
-                  const loader = document.querySelector(".loader");
-                  loader.className += " hidden"; // class "loader hidden"
 
-              });
-         </script>
+```html
+    <script>
+        window.addEventListener("load", function () {
+            const loader = document.querySelector(".loader");
+            loader.className += " hidden"; // class "loader hidden"
+
+        });
+   </script>
 ```
 - step 3 add html loader tag to your body tag
+
 ```html
       <div class="loader">
           <img src="/static/gif/807.gif" alt="Loading..." />
