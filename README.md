@@ -47,10 +47,9 @@ https://preloaders.net/
         /* loader css end */
         </style>
 ```
-- Step2
-  add loader script to yout head tag again
-    ```html
 
+- Step2 add loader script to yout head tag again
+```html
           <script>
               window.addEventListener("load", function () {
                   const loader = document.querySelector(".loader");
@@ -58,14 +57,10 @@ https://preloaders.net/
 
               });
          </script>
-
 ```
-- step 3 
-  add html loader tag to your body tag
-  ```html
-
-        <div class="loader">
-            <img src="/static/gif/807.gif" alt="Loading..." />
-        </div>
-
+- step 3 add html loader tag to your body tag
+```html
+      <div class="loader">
+          <img src="/static/gif/807.gif" alt="Loading..." />
+      </div>
 ```
