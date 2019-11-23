@@ -50,22 +50,22 @@ https://preloaders.net/
 - Step2
   add loader script to yout head tag again
     ```html
- <!-- loader script start -->
-    <script>
-        window.addEventListener("load", function () {
-            const loader = document.querySelector(".loader");
-            loader.className += " hidden"; // class "loader hidden"
 
-        });
-   </script>
-<!-- loader script end -->
+          <script>
+              window.addEventListener("load", function () {
+                  const loader = document.querySelector(".loader");
+                  loader.className += " hidden"; // class "loader hidden"
+
+              });
+         </script>
+
 ```
 - step 3 
   add html loader tag to your body tag
   ```html
-<!-- loader html code start  -->
-    <div class="loader">
-        <img src="/static/gif/807.gif" alt="Loading..." />
-    </div>
-<!-- loader html code end  -->
+
+        <div class="loader">
+            <img src="/static/gif/807.gif" alt="Loading..." />
+        </div>
+
 ```
