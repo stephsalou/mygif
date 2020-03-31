@@ -68,3 +68,48 @@ https://preloaders.net/
           <img src="/static/gif/807.gif" alt="Loading..." />
       </div>
 ```
+
+
+
+## Another Pure Css Loader code
+```html
+  <div id="loading"><div class="loader"></div></div>
+```
+
+```css
+  #loading {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: fixed;
+      display: block;
+      opacity: 0.7;
+      background-color: #000000;
+      z-index: 9999;
+      text-align: center;
+  }
+  .loader {
+      background: #000000;
+      /* margin: 0px auto; */
+      font-size: 10px;
+      position: absolute;
+      top: 45%;
+      left: 45%;
+      text-indent: -9999em;
+      border-top: 1.1em solid rgba(255, 255, 255, 1);
+      border-right: 1.1em solid rgba(255, 255, 255, 1);
+      border-bottom: 1.1em solid rgba(255, 255, 255, 1);
+      border-left: 1.1em solid #f16e00;
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-animation: load8 1.1s infinite linear;
+      animation: load8 1.1s infinite linear;
+  }
+  .loader, .loader:after {
+      border-radius: 50%;
+      width: 10em;
+      height: 10em;
+  }
+```
